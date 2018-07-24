@@ -1,0 +1,23 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue scrolling-navbar ie-nav" [containerInside]="false">
+    <mdb-navbar-brand>
+        <a class="logo navbar-brand" [routerLink]="['/home']"><strong> English Logica </strong></a>
+    </mdb-navbar-brand>
+    <links>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item waves-light" mdbWavesEffect>
+                <a class="nav-link" routerLink="/expressions/content_find"> Find Expressions </a>
+            </li>
+            <li class="nav-item waves-light" mdbWavesEffect>
+                <a class="nav-link" routerLink="/comics/upload-comics"> Upload Comics </a>
+            </li>
+            <li class="nav-item waves-light" mdbWavesEffect>
+                <a class="nav-link" routerLink="/comics/view-comics"> View Comics </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item waves-light" mdbWavesEffect>
+                <a class="nav-link"><i class="fa fa-facebook"></i></a>
+            </li>
+        </ul>
+    </links>
+</mdb-navbar>
